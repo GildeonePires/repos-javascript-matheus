@@ -1,0 +1,1 @@
+console.log("Olá mundo!\n - JavaScript executado com sucesso!!!!")
