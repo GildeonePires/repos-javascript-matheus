@@ -1,27 +1,27 @@
-let numeros = 41;
+// let numeros = 41;
 
-for (let i = 1; i <= numeros; i++) {
-  let primo = 0;
-
-
-  for (let j = 1; j <= numeros; j++) {
-    if (i % j == 0) {
-      primo++;
-    }
-  }
+// for (let i = 1; i <= numeros; i++) {
+//   let primo = 0;
 
 
-  if (primo === 2) {
-    console.log(i);
-  }
-}
+//   for (let j = 1; j <= numeros; j++) {
+//     if (i % j == 0) {
+//       primo++;
+//     }
+//   }
 
-/*
-let num = 41;
+
+//   if (primo === 2) {
+//     console.log(i);
+//   }
+// }
+
+
+let num = 9;
 let divisoes = 0;
 
-for (let w = 0; w <= num; w++) {
-  if (num % w == 0) {
+for (let i = 1; i <= num; i++) {
+  if (num % i == 0) {
     divisoes++;
   }
 }
@@ -31,4 +31,3 @@ if (divisoes == 2) {
 } else {
   console.log(`O número ${num} não é primo`);
 }
-  */
